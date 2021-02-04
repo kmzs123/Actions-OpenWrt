@@ -15,5 +15,6 @@
 
 # Add a feed source
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
+git clone https://github.com/cokebar/openwrt-vlmcsd.git package/openwrt-vlmcsd
 git clone https://github.com/cokebar/luci-app-vlmcsd.git package/luci-app-vlmcsd
 git clone https://github.com/awesome-openwrt/luci-app-ramfree.git package/luci-app-ramfree
